@@ -1,9 +1,10 @@
 <?php
 
 
-Route::get('/prueba', function()
+Route::get('/', function()
 {
-	return View::make('prueba');
+	return View::make('hello');
 });
 
 Route::controller('personal','PersonalController');
+Route::controller('clase2','Clase2Controller');
